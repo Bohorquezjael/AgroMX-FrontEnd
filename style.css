@@ -49,6 +49,24 @@ header, footer {
   height: 100px;
 }
 
+#Lupa{
+    width: 30px; /* Cambia esto al tamaño deseado */
+
 }
+
+#avatar{
+    width: 50px; /* Cambia esto al tamaño deseado */
+
+}
+
+#carrito-compras{
+    width: 50px; /* Cambia esto al tamaño deseado */
+
+}
+
+#Logo{
+    width: 80px;
+}
+
 
 
