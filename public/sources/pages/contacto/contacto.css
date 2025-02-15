@@ -1,85 +1,87 @@
-
 .nokora-regular {
-    font-family: "Nokora", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Nokora", serif;
+  font-weight: 400;
+  font-style: normal;
 }
-  
+
 .mako-regular {
-    font-family: "Mako", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Mako", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.usuario{
-    color: black;
-    font-family: "Mako", serif;
+.usuario {
+  color: black;
+  font-family: "Mako", serif;
 }
 
-.nombre{
-    color: black;
-    font-family: "Mako", serif;
+.nombre {
+  color: black;
+  font-family: "Mako", serif;
 }
 
-.email{
-    color: black;
-    font-family: "Mako", serif;
+.email {
+  color: black;
+  font-family: "Mako", serif;
 }
 
-.contraseña{
-    color: black;
-    font-family: "Mako", serif;
+.contraseña {
+  color: black;
+  font-family: "Mako", serif;
 }
 
-#titulo{
-    color: #00745F;
-    font-family: 'Gabriela', serif;
+#titulo {
+  color: #00745F;
+  font-family: 'Gabriela', serif;
 }
 
-#subtitulo{
-    color: #AE7D00 !important;
-    text-align: center !important;
-    font-family: 'Gabriela', serif;
+#subtitulo {
+  color: #AE7D00 !important;
+  text-align: center !important;
+  font-family: 'Gabriela', serif;
 }
 
-.terminos-condiciones{
-    color: #AE7D00 !important;
-    text-align: center !important;
-    font-family: 'Nokora', sans-serif;
+.terminos-condiciones {
+  color: #AE7D00 !important;
+  text-align: center !important;
+  font-family: 'Nokora', sans-serif;
 }
 
 .form-check {
-    display: flex !important;
-    align-items: center; /* Alinear verticalmente checkbox y texto */
-    gap: 6px; /* Espacio entre checkbox y texto */
-    justify-content: center;
-    width: 100%;
+  display: flex !important;
+  align-items: center;
+  /* Alinear verticalmente checkbox y texto */
+  gap: 6px;
+  /* Espacio entre checkbox y texto */
+  justify-content: center;
+  width: 100%;
 }
 
-.inicio-sesion{
-    color: #AE7D00 !important;
-    text-align: center !important;
-    font-family: 'Nokora', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 6px; //espacio entre el checkbox - el texto
+.inicio-sesion {
+  color: #AE7D00 !important;
+  text-align: center !important;
+  font-family: 'Nokora', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  /* espacio entre el checkbox - el texto */
 }
 
 .custom-btn {
-    background-color: #E17018 !important;
-    border-color: #000000 !important;
-    border-width: 0.1px !important;
-    color: white !important;
-    border-radius: 10px 10px 10px 10px !important;
+  background-color: #E17018 !important;
+  border-color: #000000 !important;
+  border-width: 0.1px !important;
+  color: white !important;
+  border-radius: 10px 10px 10px 10px !important;
 }
 
-button{
-    font-family: 'Nokora', sans-serif !important;
+button {
+  font-family: 'Nokora', sans-serif !important;
 
 }
+
 .custom-btn:hover {
-    background-color: #005a48; 
-    border-color: #004137;
+  background-color: #005a48;
+  border-color: #004137;
 }
-

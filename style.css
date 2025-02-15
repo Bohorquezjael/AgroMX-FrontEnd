@@ -14,10 +14,10 @@
   --greenPrimary: #007D3C;
 }
 
-body::-webkit-scrollbar{
+/*body::-webkit-scrollbar{
   width: 0px;
   height: 0px;
-}
+}*/
 
 header,
 footer {
@@ -139,5 +139,9 @@ a:hover {
   font-family: 'Mako', serif;
   font-size: 3vw;
   color: #768300;
+}
+
+.fa-cart-shopping { /* Ajusta el tamaño */
+  color: #000;     /* Cambia el color del icono para verlo claramente */
 }
 

@@ -1,0 +1,914 @@
+{
+    "productos": [
+      {
+        "nombre": "Manzana",
+        "precio": 1.20,
+        "stock": 50,
+        "descripcion": "Manzana roja fresca y jugosa.",
+        "imagen": "https://ejemplo.com/manzana.jpg"
+      },
+      {
+        "nombre": "Plátano",
+        "precio": 0.80,
+        "stock": 100,
+        "descripcion": "Plátano amarillo y dulce.",
+        "imagen": "https://ejemplo.com/platano.jpg"
+      },
+      {
+        "nombre": "Naranja",
+        "precio": 1.00,
+        "stock": 75,
+        "descripcion": "Naranja dulce y rica en vitamina C.",
+        "imagen": "https://ejemplo.com/naranja.jpg"
+      },
+      {
+        "nombre": "Zanahoria",
+        "precio": 0.50,
+        "stock": 200,
+        "descripcion": "Zanahoria fresca y crujiente.",
+        "imagen": "https://ejemplo.com/zanahoria.jpg"
+      },
+      {
+        "nombre": "Tomate",
+        "precio": 0.90,
+        "stock": 150,
+        "descripcion": "Tomate rojo y jugoso.",
+        "imagen": "https://ejemplo.com/tomate.jpg"
+      },
+      {
+        "nombre": "Lechuga",
+        "precio": 0.70,
+        "stock": 120,
+        "descripcion": "Lechuga fresca y crujiente.",
+        "imagen": "https://ejemplo.com/lechuga.jpg"
+      },
+      {
+        "nombre": "Pimiento",
+        "precio": 1.10,
+        "stock": 80,
+        "descripcion": "Pimiento rojo y dulce.",
+        "imagen": "https://ejemplo.com/pimiento.jpg"
+      },
+      {
+        "nombre": "Cebolla",
+        "precio": 0.60,
+        "stock": 180,
+        "descripcion": "Cebolla amarilla y fresca.",
+        "imagen": "https://ejemplo.com/cebolla.jpg"
+      },
+      {
+        "nombre": "Ajo",
+        "precio": 0.30,
+        "stock": 250,
+        "descripcion": "Ajo fresco y aromático.",
+        "imagen": "https://ejemplo.com/ajo.jpg"
+      },
+      {
+        "nombre": "Papa",
+        "precio": 0.40,
+        "stock": 300,
+        "descripcion": "Papa blanca y fresca.",
+        "imagen": "https://ejemplo.com/papa.jpg"
+      },
+      {
+        "nombre": "Calabacín",
+        "precio": 1.00,
+        "stock": 90,
+        "descripcion": "Calabacín verde y fresco.",
+        "imagen": "https://ejemplo.com/calabacin.jpg"
+      },
+      {
+        "nombre": "Brócoli",
+        "precio": 1.50,
+        "stock": 60,
+        "descripcion": "Brócoli fresco y saludable.",
+        "imagen": "https://ejemplo.com/brocoli.jpg"
+      },
+      {
+        "nombre": "Espinaca",
+        "precio": 1.20,
+        "stock": 70,
+        "descripcion": "Espinaca fresca y nutritiva.",
+        "imagen": "https://ejemplo.com/espinaca.jpg"
+      },
+      {
+        "nombre": "Pepino",
+        "precio": 0.80,
+        "stock": 110,
+        "descripcion": "Pepino fresco y crujiente.",
+        "imagen": "https://ejemplo.com/pepino.jpg"
+      },
+      {
+        "nombre": "Calabaza",
+        "precio": 2.00,
+        "stock": 40,
+        "descripcion": "Calabaza fresca y dulce.",
+        "imagen": "https://ejemplo.com/calabaza.jpg"
+      },
+      {
+        "nombre": "Limón",
+        "precio": 0.50,
+        "stock": 150,
+        "descripcion": "Limón fresco y ácido.",
+        "imagen": "https://ejemplo.com/limon.jpg"
+      },
+      {
+        "nombre": "Uva",
+        "precio": 2.50,
+        "stock": 60,
+        "descripcion": "Uva dulce y jugosa.",
+        "imagen": "https://ejemplo.com/uva.jpg"
+      },
+      {
+        "nombre": "Fresa",
+        "precio": 3.00,
+        "stock": 50,
+        "descripcion": "Fresa roja y dulce.",
+        "imagen": "https://ejemplo.com/fresa.jpg"
+      },
+      {
+        "nombre": "Kiwi",
+        "precio": 1.80,
+        "stock": 70,
+        "descripcion": "Kiwi fresco y jugoso.",
+        "imagen": "https://ejemplo.com/kiwi.jpg"
+      },
+      {
+        "nombre": "Mango",
+        "precio": 2.20,
+        "stock": 40,
+        "descripcion": "Mango dulce y jugoso.",
+        "imagen": "https://ejemplo.com/mango.jpg"
+      },
+      {
+        "nombre": "Piña",
+        "precio": 2.50,
+        "stock": 30,
+        "descripcion": "Piña fresca y dulce.",
+        "imagen": "https://ejemplo.com/pina.jpg"
+      },
+      {
+        "nombre": "Sandía",
+        "precio": 3.50,
+        "stock": 20,
+        "descripcion": "Sandía fresca y jugosa.",
+        "imagen": "https://ejemplo.com/sandia.jpg"
+      },
+      {
+        "nombre": "Melón",
+        "precio": 2.80,
+        "stock": 25,
+        "descripcion": "Melón fresco y dulce.",
+        "imagen": "https://ejemplo.com/melon.jpg"
+      },
+      {
+        "nombre": "Pera",
+        "precio": 1.50,
+        "stock": 60,
+        "descripcion": "Pera dulce y jugosa.",
+        "imagen": "https://ejemplo.com/pera.jpg"
+      },
+      {
+        "nombre": "Durazno",
+        "precio": 1.80,
+        "stock": 50,
+        "descripcion": "Durazno dulce y jugoso.",
+        "imagen": "https://ejemplo.com/durazno.jpg"
+      },
+      {
+        "nombre": "Ciruela",
+        "precio": 1.60,
+        "stock": 55,
+        "descripcion": "Ciruela dulce y jugosa.",
+        "imagen": "https://ejemplo.com/ciruela.jpg"
+      },
+      {
+        "nombre": "Cereza",
+        "precio": 4.00,
+        "stock": 30,
+        "descripcion": "Cereza dulce y jugosa.",
+        "imagen": "https://ejemplo.com/cereza.jpg"
+      },
+      {
+        "nombre": "Arándano",
+        "precio": 3.50,
+        "stock": 40,
+        "descripcion": "Arándano fresco y dulce.",
+        "imagen": "https://ejemplo.com/arandano.jpg"
+      },
+      {
+        "nombre": "Frambuesa",
+        "precio": 4.50,
+        "stock": 25,
+        "descripcion": "Frambuesa dulce y jugosa.",
+        "imagen": "https://ejemplo.com/frambuesa.jpg"
+      },
+      {
+        "nombre": "Mora",
+        "precio": 3.80,
+        "stock": 30,
+        "descripcion": "Mora dulce y jugosa.",
+        "imagen": "https://ejemplo.com/mora.jpg"
+      },
+      {
+        "nombre": "Granada",
+        "precio": 2.50,
+        "stock": 35,
+        "descripcion": "Granada fresca y jugosa.",
+        "imagen": "https://ejemplo.com/granada.jpg"
+      },
+      {
+        "nombre": "Higo",
+        "precio": 2.80,
+        "stock": 20,
+        "descripcion": "Higo dulce y jugoso.",
+        "imagen": "https://ejemplo.com/higo.jpg"
+      },
+      {
+        "nombre": "Coco",
+        "precio": 3.00,
+        "stock": 15,
+        "descripcion": "Coco fresco y jugoso.",
+        "imagen": "https://ejemplo.com/coco.jpg"
+      },
+      {
+        "nombre": "Papaya",
+        "precio": 2.20,
+        "stock": 25,
+        "descripcion": "Papaya dulce y jugosa.",
+        "imagen": "https://ejemplo.com/papaya.jpg"
+      },
+      {
+        "nombre": "Guayaba",
+        "precio": 1.80,
+        "stock": 30,
+        "descripcion": "Guayaba dulce y jugosa.",
+        "imagen": "https://ejemplo.com/guayaba.jpg"
+      },
+      {
+        "nombre": "Maracuyá",
+        "precio": 2.50,
+        "stock": 20,
+        "descripcion": "Maracuyá ácida y jugosa.",
+        "imagen": "https://ejemplo.com/maracuya.jpg"
+      },
+      {
+        "nombre": "Lima",
+        "precio": 0.60,
+        "stock": 100,
+        "descripcion": "Lima fresca y ácida.",
+        "imagen": "https://ejemplo.com/lima.jpg"
+      },
+      {
+        "nombre": "Mandarina",
+        "precio": 1.10,
+        "stock": 80,
+        "descripcion": "Mandarina dulce y jugosa.",
+        "imagen": "https://ejemplo.com/mandarina.jpg"
+      },
+      {
+        "nombre": "Pomelo",
+        "precio": 1.30,
+        "stock": 60,
+        "descripcion": "Pomelo fresco y ácido.",
+        "imagen": "https://ejemplo.com/pomelo.jpg"
+      },
+      {
+        "nombre": "Chirimoya",
+        "precio": 3.00,
+        "stock": 15,
+        "descripcion": "Chirimoya dulce y jugosa.",
+        "imagen": "https://ejemplo.com/chirimoya.jpg"
+      },
+      {
+        "nombre": "Níspero",
+        "precio": 1.70,
+        "stock": 40,
+        "descripcion": "Níspero dulce y jugoso.",
+        "imagen": "https://ejemplo.com/nispero.jpg"
+      },
+      {
+        "nombre": "Albaricoque",
+        "precio": 2.00,
+        "stock": 30,
+        "descripcion": "Albaricoque dulce y jugoso.",
+        "imagen": "https://ejemplo.com/albaricoque.jpg"
+      },
+      {
+        "nombre": "Caqui",
+        "precio": 2.20,
+        "stock": 25,
+        "descripcion": "Caqui dulce y jugoso.",
+        "imagen": "https://ejemplo.com/caqui.jpg"
+      },
+      {
+        "nombre": "Granadilla",
+        "precio": 2.50,
+        "stock": 20,
+        "descripcion": "Granadilla dulce y jugosa.",
+        "imagen": "https://ejemplo.com/granadilla.jpg"
+      },
+      {
+        "nombre": "Tamarindo",
+        "precio": 1.50,
+        "stock": 50,
+        "descripcion": "Tamarindo ácido y jugoso.",
+        "imagen": "https://ejemplo.com/tamarindo.jpg"
+      },
+      {
+        "nombre": "Carambola",
+        "precio": 2.80,
+        "stock": 15,
+        "descripcion": "Carambola fresca y jugosa.",
+        "imagen": "https://ejemplo.com/carambola.jpg"
+      },
+      {
+        "nombre": "Rábano",
+        "precio": 0.40,
+        "stock": 200,
+        "descripcion": "Rábano fresco y picante.",
+        "imagen": "https://ejemplo.com/rabano.jpg"
+      },
+      {
+        "nombre": "Remolacha",
+        "precio": 0.70,
+        "stock": 150,
+        "descripcion": "Remolacha fresca y dulce.",
+        "imagen": "https://ejemplo.com/remolacha.jpg"
+      },
+      {
+        "nombre": "Apio",
+        "precio": 0.90,
+        "stock": 120,
+        "descripcion": "Apio fresco y crujiente.",
+        "imagen": "https://ejemplo.com/apio.jpg"
+      },
+      {
+        "nombre": "Coliflor",
+        "precio": 1.50,
+        "stock": 80,
+        "descripcion": "Coliflor fresca y saludable.",
+        "imagen": "https://ejemplo.com/coliflor.jpg"
+      },
+      {
+        "nombre": "Repollo",
+        "precio": 0.80,
+        "stock": 100,
+        "descripcion": "Repollo fresco y crujiente.",
+        "imagen": "https://ejemplo.com/repollo.jpg"
+      },
+      {
+        "nombre": "Acelga",
+        "precio": 1.00,
+        "stock": 90,
+        "descripcion": "Acelga fresca y nutritiva.",
+        "imagen": "https://ejemplo.com/acelga.jpg"
+      },
+      {
+        "nombre": "Endibia",
+        "precio": 1.20,
+        "stock": 70,
+        "descripcion": "Endibia fresca y crujiente.",
+        "imagen": "https://ejemplo.com/endibia.jpg"
+      },
+      {
+        "nombre": "Espárrago",
+        "precio": 2.00,
+        "stock": 50,
+        "descripcion": "Espárrago fresco y saludable.",
+        "imagen": "https://ejemplo.com/esparrago.jpg"
+      },
+      {
+        "nombre": "Alcachofa",
+        "precio": 1.80,
+        "stock": 60,
+        "descripcion": "Alcachofa fresca y saludable.",
+        "imagen": "https://ejemplo.com/alcachofa.jpg"
+      },
+      {
+        "nombre": "Berenjena",
+        "precio": 1.20,
+        "stock": 80,
+        "descripcion": "Berenjena fresca y saludable.",
+        "imagen": "https://ejemplo.com/berenjena.jpg"
+      },
+      {
+        "nombre": "Calabacín amarillo",
+        "precio": 1.10,
+        "stock": 70,
+        "descripcion": "Calabacín amarillo fresco y saludable.",
+        "imagen": "https://ejemplo.com/calabacin-amarillo.jpg"
+      },
+      {
+        "nombre": "Pepino dulce",
+        "precio": 1.30,
+        "stock": 60,
+        "descripcion": "Pepino dulce fresco y jugoso.",
+        "imagen": "https://ejemplo.com/pepino-dulce.jpg"
+      },
+      {
+        "nombre": "Pimiento verde",
+        "precio": 1.00,
+        "stock": 90,
+        "descripcion": "Pimiento verde fresco y crujiente.",
+        "imagen": "https://ejemplo.com/pimiento-verde.jpg"
+      },
+      {
+        "nombre": "Pimiento amarillo",
+        "precio": 1.20,
+        "stock": 80,
+        "descripcion": "Pimiento amarillo fresco y dulce.",
+        "imagen": "https://ejemplo.com/pimiento-amarillo.jpg"
+      },
+      {
+        "nombre": "Pimiento naranja",
+        "precio": 1.20,
+        "stock": 80,
+        "descripcion": "Pimiento naranja fresco y dulce.",
+        "imagen": "https://ejemplo.com/pimiento-naranja.jpg"
+      },
+      {
+        "nombre": "Pimiento rojo",
+        "precio": 1.20,
+        "stock": 80,
+        "descripcion": "Pimiento rojo fresco y dulce.",
+        "imagen": "https://ejemplo.com/pimiento-rojo.jpg"
+      },
+      {
+        "nombre": "Pimiento morrón",
+        "precio": 1.50,
+        "stock": 60,
+        "descripcion": "Pimiento morrón fresco y dulce.",
+        "imagen": "https://ejemplo.com/pimiento-morron.jpg"
+      },
+      {
+        "nombre": "Chile jalapeño",
+        "precio": 0.80,
+        "stock": 120,
+        "descripcion": "Chile jalapeño fresco y picante.",
+        "imagen": "https://ejemplo.com/chile-jalapeno.jpg"
+      },
+      {
+        "nombre": "Chile serrano",
+        "precio": 0.70,
+        "stock": 130,
+        "descripcion": "Chile serrano fresco y picante.",
+        "imagen": "https://ejemplo.com/chile-serrano.jpg"
+      },
+      {
+        "nombre": "Chile habanero",
+        "precio": 1.00,
+        "stock": 100,
+        "descripcion": "Chile habanero fresco y muy picante.",
+        "imagen": "https://ejemplo.com/chile-habanero.jpg"
+      },
+      {
+        "nombre": "Chile poblano",
+        "precio": 0.90,
+        "stock": 110,
+        "descripcion": "Chile poblano fresco y suave.",
+        "imagen": "https://ejemplo.com/chile-poblano.jpg"
+      },
+      {
+        "nombre": "Chile de árbol",
+        "precio": 0.80,
+        "stock": 120,
+        "descripcion": "Chile de árbol fresco y picante.",
+        "imagen": "https://ejemplo.com/chile-arbol.jpg"
+      },
+      {
+        "nombre": "Chile guajillo",
+        "precio": 0.70,
+        "stock": 130,
+        "descripcion": "Chile guajillo seco y picante.",
+        "imagen": "https://ejemplo.com/chile-guajillo.jpg"
+      },
+      {
+        "nombre": "Chile ancho",
+        "precio": 0.80,
+        "stock": 120,
+        "descripcion": "Chile ancho seco y picante.",
+        "imagen": "https://ejemplo.com/chile-ancho.jpg"
+      },
+      {
+        "nombre": "Chile pasilla",
+        "precio": 0.90,
+        "stock": 110,
+        "descripcion": "Chile pasilla seco y picante.",
+        "imagen": "https://ejemplo.com/chile-pasilla.jpg"
+      },
+      {
+        "nombre": "Chile chipotle",
+        "precio": 1.00,
+        "stock": 100,
+        "descripcion": "Chile chipotle seco y ahumado.",
+        "imagen": "https://ejemplo.com/chile-chipotle.jpg"
+      },
+      {
+        "nombre": "Chile cascabel",
+        "precio": 0.90,
+        "stock": 110,
+        "descripcion": "Chile cascabel seco y picante.",
+        "imagen": "https://ejemplo.com/chile-cascabel.jpg"
+      },
+      {
+        "nombre": "Chile mulato",
+        "precio": 0.80,
+        "stock": 120,
+        "descripcion": "Chile mulato seco y picante.",
+        "imagen": "https://ejemplo.com/chile-mulato.jpg"
+      },
+      {
+        "nombre": "Chile de agua",
+        "precio": 0.70,
+        "stock": 130,
+        "descripcion": "Chile de agua fresco y suave.",
+        "imagen": "https://ejemplo.com/chile-agua.jpg"
+      },
+      {
+        "nombre": "Chile manzano",
+        "precio": 0.80,
+        "stock": 120,
+        "descripcion": "Chile manzano fresco y picante.",
+        "imagen": "https://ejemplo.com/chile-manzano.jpg"
+      },
+      {
+        "nombre": "Chile piquín",
+        "precio": 0.90,
+        "stock": 110,
+        "descripcion": "Chile piquín seco y muy picante.",
+        "imagen": "https://ejemplo.com/chile-piquin.jpg"
+      },
+      {
+        "nombre": "Chile chiltepín",
+        "precio": 1.00,
+        "stock": 100,
+        "descripcion": "Chile chiltepín seco y muy picante.",
+        "imagen": "https://ejemplo.com/chile-chiltepin.jpg"
+      },
+      {
+        "nombre": "Chile de onza",
+        "precio": 0.90,
+        "stock": 110,
+        "descripcion": "Chile de onza seco y picante.",
+        "imagen": "https://ejemplo.com/chile-onza.jpg"
+      },
+      {
+        "nombre": "Chile de árbol seco",
+        "precio": 0.80,
+        "stock": 120,
+        "descripcion": "Chile de árbol seco y picante.",
+        "imagen": "https://ejemplo.com/chile-arbol-seco.jpg"
+      },
+      {
+        "nombre": "Chile guajillo seco",
+        "precio": 0.70,
+        "stock": 130,
+        "descripcion": "Chile guajillo seco y picante.",
+        "imagen": "https://ejemplo.com/chile-guajillo-seco.jpg"
+      },
+      {
+        "nombre": "Chile ancho seco",
+        "precio": 0.80,
+        "stock": 120,
+        "descripcion": "Chile ancho seco y picante.",
+        "imagen": "https://ejemplo.com/chile-ancho-seco.jpg"
+      },
+      {
+        "nombre": "Chile pasilla seco",
+        "precio": 0.90,
+        "stock": 110,
+        "descripcion": "Chile pasilla seco y picante.",
+        "imagen": "https://ejemplo.com/chile-pasilla-seco.jpg"
+      },
+      {
+        "nombre": "Chile chipotle seco",
+        "precio": 1.00,
+        "stock": 100,
+        "descripcion": "Chile chipotle seco y ahumado.",
+        "imagen": "https://ejemplo.com/chile-chipotle-seco.jpg"
+      },
+      {
+        "nombre": "Chile cascabel seco",
+        "precio": 0.90,
+        "stock": 110,
+        "descripcion": "Chile cascabel seco y picante.",
+        "imagen": "https://ejemplo.com/chile-cascabel-seco.jpg"
+      },
+      {
+        "nombre": "Chile mulato seco",
+        "precio": 0.80,
+        "stock": 120,
+        "descripcion": "Chile mulato seco y picante.",
+        "imagen": "https://ejemplo.com/chile-mulato-seco.jpg"
+      },
+      {
+        "nombre": "Chile de agua seco",
+        "precio": 0.70,
+        "stock": 130,
+        "descripcion": "Chile de agua seco y suave.",
+        "imagen": "https://ejemplo.com/chile-agua-seco.jpg"
+      },
+      {
+        "nombre": "Chile manzano seco",
+        "precio": 0.80,
+        "stock": 120,
+        "descripcion": "Chile manzano seco y picante.",
+        "imagen": "https://ejemplo.com/chile-manzano-seco.jpg"
+      },
+      {
+        "nombre": "Chile piquín seco",
+        "precio": 0.90,
+        "stock": 110,
+        "descripcion": "Chile piquín seco y muy picante.",
+        "imagen": "https://ejemplo.com/chile-piquin-seco.jpg"
+      },
+      {
+        "nombre": "Chile chiltepín seco",
+        "precio": 1.00,
+        "stock": 100,
+        "descripcion": "Chile chiltepín seco y muy picante.",
+        "imagen": "https://ejemplo.com/chile-chiltepin-seco.jpg"
+      },
+      {
+        "nombre": "Chile de onza seco",
+        "precio": 0.90,
+        "stock": 110,
+        "descripcion": "Chile de onza seco y picante.",
+        "imagen": "https://ejemplo.com/chile-onza-seco.jpg"
+      },
+      {
+        "nombre": "Semilla de girasol",
+        "precio": 1.50,
+        "stock": 200,
+        "descripcion": "Semilla de girasol tostada y salada.",
+        "imagen": "https://ejemplo.com/semilla-girasol.jpg"
+      },
+      {
+        "nombre": "Semilla de calabaza",
+        "precio": 1.80,
+        "stock": 150,
+        "descripcion": "Semilla de calabaza tostada y salada.",
+        "imagen": "https://ejemplo.com/semilla-calabaza.jpg"
+      },
+      {
+        "nombre": "Semilla de chía",
+        "precio": 2.50,
+        "stock": 100,
+        "descripcion": "Semilla de chía rica en omega-3.",
+        "imagen": "https://ejemplo.com/semilla-chia.jpg"
+      },
+      {
+        "nombre": "Semilla de lino",
+        "precio": 2.00,
+        "stock": 120,
+        "descripcion": "Semilla de lino rica en fibra.",
+        "imagen": "https://ejemplo.com/semilla-lino.jpg"
+      },
+      {
+        "nombre": "Semilla de sésamo",
+        "precio": 1.70,
+        "stock": 180,
+        "descripcion": "Semilla de sésamo tostada.",
+        "imagen": "https://ejemplo.com/semilla-sesamo.jpg"
+      },
+      {
+        "nombre": "Semilla de amapola",
+        "precio": 2.20,
+        "stock": 90,
+        "descripcion": "Semilla de amapola para repostería.",
+        "imagen": "https://ejemplo.com/semilla-amapola.jpg"
+      },
+      {
+        "nombre": "Semilla de quinoa",
+        "precio": 3.00,
+        "stock": 80,
+        "descripcion": "Semilla de quinoa rica en proteínas.",
+        "imagen": "https://ejemplo.com/semilla-quinoa.jpg"
+      },
+      {
+        "nombre": "Semilla de amaranto",
+        "precio": 2.80,
+        "stock": 70,
+        "descripcion": "Semilla de amaranto rica en nutrientes.",
+        "imagen": "https://ejemplo.com/semilla-amaranto.jpg"
+      },
+      {
+        "nombre": "Semilla de cáñamo",
+        "precio": 3.50,
+        "stock": 60,
+        "descripcion": "Semilla de cáñamo rica en omega-3.",
+        "imagen": "https://ejemplo.com/semilla-canamo.jpg"
+      },
+      {
+        "nombre": "Semilla de mostaza",
+        "precio": 1.20,
+        "stock": 200,
+        "descripcion": "Semilla de mostaza para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-mostaza.jpg"
+      },
+      {
+        "nombre": "Semilla de fenogreco",
+        "precio": 1.50,
+        "stock": 150,
+        "descripcion": "Semilla de fenogreco para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-fenogreco.jpg"
+      },
+      {
+        "nombre": "Semilla de comino",
+        "precio": 1.30,
+        "stock": 180,
+        "descripcion": "Semilla de comino para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-comino.jpg"
+      },
+      {
+        "nombre": "Semilla de cilantro",
+        "precio": 1.40,
+        "stock": 170,
+        "descripcion": "Semilla de cilantro para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-cilantro.jpg"
+      },
+      {
+        "nombre": "Semilla de hinojo",
+        "precio": 1.60,
+        "stock": 160,
+        "descripcion": "Semilla de hinojo para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-hinojo.jpg"
+      },
+      {
+        "nombre": "Semilla de anís",
+        "precio": 1.70,
+        "stock": 150,
+        "descripcion": "Semilla de anís para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-anis.jpg"
+      },
+      {
+        "nombre": "Semilla de cardamomo",
+        "precio": 2.50,
+        "stock": 100,
+        "descripcion": "Semilla de cardamomo para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-cardamomo.jpg"
+      },
+      {
+        "nombre": "Semilla de nuez moscada",
+        "precio": 2.80,
+        "stock": 90,
+        "descripcion": "Semilla de nuez moscada para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-nuez-moscada.jpg"
+      },
+      {
+        "nombre": "Semilla de clavo",
+        "precio": 1.90,
+        "stock": 120,
+        "descripcion": "Semilla de clavo para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-clavo.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta negra",
+        "precio": 1.50,
+        "stock": 200,
+        "descripcion": "Semilla de pimienta negra para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-negra.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta blanca",
+        "precio": 1.60,
+        "stock": 190,
+        "descripcion": "Semilla de pimienta blanca para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-blanca.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta roja",
+        "precio": 1.70,
+        "stock": 180,
+        "descripcion": "Semilla de pimienta roja para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-roja.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta verde",
+        "precio": 1.80,
+        "stock": 170,
+        "descripcion": "Semilla de pimienta verde para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-verde.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta de Jamaica",
+        "precio": 2.00,
+        "stock": 150,
+        "descripcion": "Semilla de pimienta de Jamaica para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-jamaica.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta de cayena",
+        "precio": 1.90,
+        "stock": 160,
+        "descripcion": "Semilla de pimienta de cayena para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-cayena.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta de Sichuan",
+        "precio": 2.20,
+        "stock": 140,
+        "descripcion": "Semilla de pimienta de Sichuan para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-sichuan.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta de limón",
+        "precio": 2.10,
+        "stock": 150,
+        "descripcion": "Semilla de pimienta de limón para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-limon.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta rosa",
+        "precio": 2.30,
+        "stock": 130,
+        "descripcion": "Semilla de pimienta rosa para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-rosa.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta larga",
+        "precio": 2.40,
+        "stock": 120,
+        "descripcion": "Semilla de pimienta larga para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-larga.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta de Alepo",
+        "precio": 2.50,
+        "stock": 110,
+        "descripcion": "Semilla de pimienta de Alepo para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-alepo.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta de Timut",
+        "precio": 2.60,
+        "stock": 100,
+        "descripcion": "Semilla de pimienta de Timut para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-timut.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta de Voatsiperifery",
+        "precio": 2.70,
+        "stock": 90,
+        "descripcion": "Semilla de pimienta de Voatsiperifery para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-voatsiperifery.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta de Tasmanía",
+        "precio": 2.80,
+        "stock": 80,
+        "descripcion": "Semilla de pimienta de Tasmanía para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-tasmania.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta de Muntok",
+        "precio": 2.90,
+        "stock": 70,
+        "descripcion": "Semilla de pimienta de Muntok para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-muntok.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta de Lampong",
+        "precio": 3.00,
+        "stock": 60,
+        "descripcion": "Semilla de pimienta de Lampong para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-lampong.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta de Sarawak",
+        "precio": 3.10,
+        "stock": 50,
+        "descripcion": "Semilla de pimienta de Sarawak para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-sarawak.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta de Tellicherry",
+        "precio": 3.20,
+        "stock": 40,
+        "descripcion": "Semilla de pimienta de Tellicherry para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-tellicherry.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta de Malabar",
+        "precio": 3.30,
+        "stock": 30,
+        "descripcion": "Semilla de pimienta de Malabar para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-malabar.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta de Kerala",
+        "precio": 3.40,
+        "stock": 20,
+        "descripcion": "Semilla de pimienta de Kerala para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-kerala.jpg"
+      },
+      {
+        "nombre": "Semilla de pimienta de Vietnam",
+        "precio": 3.50,
+        "stock": 10,
+        "descripcion": "Semilla de pimienta de Vietnam para condimentar.",
+        "imagen": "https://ejemplo.com/semilla-pimienta-vietnam.jpg"
+      }
+    ]
+  }
