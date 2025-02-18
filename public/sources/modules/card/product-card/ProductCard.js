@@ -28,7 +28,7 @@ class ProductCard {
   } 
 </style>
 
-            <div class="d-flex col-4 col-sm-3 col-md-3 col-lg-2 p-1">
+            <div class="col-10 col-md-4 p-1">
                 <div class="card" >                  
                         <img src="${this.imagen.getImageUrl()}" class="card-img-top product-img img-thumbnail" alt="${this.imagen.description}">
                     <div class="card-body">
