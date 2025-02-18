@@ -1,0 +1,78 @@
+body {
+    font-family: "Gabriela" "Nokora";
+    margin:0;
+    padding: 0;
+    background-color: white;
+}
+
+header {
+    background-color: ;
+    padding: 1em 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+nav ul li{
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.about-us {
+    text-align: center;
+    padding: 2em;
+    background-color: white;
+    margin 1em;
+    border-radius: 8px;
+}
+
+. team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    padding: 2em;
+}
+
+.team {
+    background-color: #4caf50;
+    color: white;
+    padding 2em;
+}
+
+.team-member {
+    background-color: #4caf50;
+    color: white;
+    padding: 1em;
+    border-radius: 8px;
+    text-align: center;
+    width: 200px;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 0.5em;
+    margin-top: 1em;
+}
+
+.icons img {
+    width: 24px;
+    height: 24px;
+}
+
+footer{
+    text-align: center;
+    padding: 1em;
+    background-color: #4caf50;
+    color: white;
+}

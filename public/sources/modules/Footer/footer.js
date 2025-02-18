@@ -1,7 +1,8 @@
 const insertMainFooter = () => {
   const footer = document.getElementById("footer");
 
-  footer.innerHTML = `<div class="col-12 text-center inicio-footer">
+  footer.innerHTML = `
+  <div class="col-12 text-center inicio-footer">
   <img class="logo img-fluid p-1" src="/public/images/image.png" alt="Logo AgroMX">
   <p id="slogan-footer"><strong>Alimentos sanos, comercio justo, futuro sostenible</strong></p>
 </div>
@@ -10,22 +11,22 @@ const insertMainFooter = () => {
 
     <!-- Necesitas Ayuda -->
     <div class="col-4 col-md-3 col-lg-3 text-center">
-      <h6 class="fw-bold">¿Necesitas ayuda?</h6>
-      <p class="mb-1"><strong>Tel. 555 324 6353</strong></p>
-      <p class="mb-1">agromx.soporte@gmail.com</p>
-      <p class="mb-0"><strong>Horarios de atención:</strong></p>
+      <h5>¿Necesitas ayuda?</h5>
+      <p class="mb-1">Tel. 555 324 6353</p>
+      <p class="mb-1 none-sm">agromx.soporte@gmail.com</p>
+      <p class="mb-0">Horarios de atención:</p>
       <p class="mb-0">9:00 a 18:00 h</p>
     </div>
 
     <!-- Acerca de nosotros -->
     <div class="col-4 col-md-3 col-lg-3 text-center">
-      <a href="/public/sources/pages/acercaDeNosotros/acercaDe.html"><strong>Developer Team</strong></a><br>
+      <a href="/public/sources/pages/acercaDeNosotros/acercaDe.html"><h5>Developer Team</h5></a>
     </div>
 
 
     <!-- Registráte -->
     <div class="col-4 col-md-3 col-lg-3 text-center">
-      <h6 class="fw-bold">Regístrate</h6>
+      <a href="/public/sources/pages/contacto/contacto.html"><h5>Regístrate</h6></a>
       <h4 class="fw-bold mt-3 p-1">AgroMX </h4>
       <i class="fa-regular fa-copyright fa-xl"></i>
     </div>

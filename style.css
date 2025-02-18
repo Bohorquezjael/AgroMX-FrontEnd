@@ -19,8 +19,7 @@
   height: 0px;
 }*/
 
-header,
-footer {
+header{
   font-family: 'Mako', serif;
 }
 
@@ -30,24 +29,20 @@ footer {
 
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3{
   font-family: 'Gabriela', serif;
 }
 
-.navbar,
-#footer {
+.navbar{
   background-color: var(--greenPrimary);
+  font-family: "Mako", serif;
   /* Color de fondo */
 }
 
-footer {
+footer{
   background-color: var(--greenPrimary);
   /* Color de fondo */
+  font-family: 'Mako', serif;
 }
 
 a {
@@ -133,6 +128,12 @@ a:hover {
 
 .inicio-footer{
   background-color: white;
+
+}
+
+footer p{
+  font-family: 'Mako', serif;
+  font-size: 70%;  
 }
 
 #slogan-footer{
