@@ -16,7 +16,7 @@ const validateFields = (name, price, stock) =>{
             }
         }
     } 
-    console.log(mensaje ? "Los datos son válidos." : "Los datos no son válidos.");
+    alert(mensaje ? "Los datos son válidos." : "Los datos no son válidos.");
     return mensaje;
 };
 

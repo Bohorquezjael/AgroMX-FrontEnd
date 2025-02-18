@@ -26,6 +26,9 @@ ItemForm.addEventListener('submit', (event) => {
     const name = ItemNameInput.value;
     const stock = ItemStock.value;
     const price = ItemPrice.value;
+    const reason =ItemReason.value;
+    const info = ItemInfo.value;
+    const imageUrl = ItemImage.value;
 
     
         /*
@@ -34,7 +37,7 @@ ItemForm.addEventListener('submit', (event) => {
    validateFields(name,price,stock);
 
     // Add the task to the task manager
-    itemsController.addItem(name, stock, price);
+    itemsController.addItem(name, description, reason, info, price, stock, imageUrl);
 
     // Clear the form
     ItemNameInput.value = '';
