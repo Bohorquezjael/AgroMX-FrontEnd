@@ -51,7 +51,7 @@ const insertHeader = () => {
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page"
-            href="/public/sources/pages/catalogo/catalogo.html">Catalogo</a>
+            href="/public/sources/pages/catalogo/catalogo.html">Catálogo</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/public/sources/pages/sobreNosotrosAgroMX/sobreNosotrosAgroMX.html">Sobre
