@@ -1,13 +1,13 @@
 .product-img {
-    width: 100%;
-    height: 180px;
-    object-fit: cover;
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
 }
-  
+
 .mako-regular {
-    font-family: "Mako", serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Mako", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .btn-primary {
@@ -22,11 +22,66 @@
 
 h1 {
   color: #00745F;
-
+  margin-top: 30px
 }
 
 .texto-tarjeta {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 400;
   font-style: normal;
+}
+
+/* Estilo de los títulos "Filtrar" y "Precio" */
+.title {
+  font-family: 'Gabriela';
+  color: #768300;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* Fondo verde de las cajas de filtros y precio */
+.bg-custom {
+  background-color: #007D3C !important;
+  color: white !important;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+/* Estilo del texto de filtros y precios */
+.text-custom {
+  font-family: 'Nokora', sans-serif;
+  color: white !important;
+}
+
+/* Estilo de los botones con el símbolo $ */
+.botonPesos {
+  font-family: 'Nokora', sans-serif;
+  background-color: #E17018 !important;
+  color: white !important;
+  font-weight: bold;
+  border: none !important;
+  border-radius: 5px;
+  text-align: center;
+  width: 30px;
+}
+
+.filtroPrecio {
+  font-family: 'Nokora', sans-serif;
+
+}
+
+h1 {
+  font-family: 'Gabriela';
+  color: #768300;
+  text-align: center;
+
+}
+
+#filtro {
+  color: black !important;
+}
+
+
+button {
+  margin-left: 40px;
 }
