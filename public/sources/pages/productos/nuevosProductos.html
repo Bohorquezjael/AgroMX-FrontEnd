@@ -63,25 +63,35 @@
         </div>
 
         <!-- Campo para ingresar la imagen del producto -->
-        <div class="form-group">
+    <!--     <div class="form-group">
           <label for="imagen_producto">Imagen del Producto:</label>
           <input type="file" id="imagen_producto" name="imagen_producto" accept="image/*" required>
+        </div><br> -->
+        <div class="form-group">
+          <label for="imagen_producto">Imagen del Producto:</label>
+          <input type="text" id="imagen_producto" required>
         </div><br>
 
 
-
       </div>
+      <button type="submit" class="btn btn-primary btn-block">Agregar producto</button>
+     
+    </form>
+    <a href="/public/sources/pages/catalogo/catalogo.html" class="btn btn-secondary btn-block mt-3">Ver catálogo</a>
+</div>
+    <!-- <div id="list-items" class="row col-10 col-md-10 mt-4 mb-4 mx-auto"></div> -->
 
       <footer id="footer"></footer>
-      <script src="acercaDe.js"></script>
+      <script type="module" src="/public/sources/pages/productos/nuevosProductos.js"></script>
+      <script type="module" src="/public/sources/pages/productos/ItemsController.js"></script>
+ <!--      <script type="module" src="/public/sources/pages/productos/validations.js"></script> -->
       <script src="/public/sources/modules/Footer/footer.js"></script>
       <script src="/public/sources/modules/Header/header.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
-    </form>
-  </div>
+    
 </body>
 
 </html>

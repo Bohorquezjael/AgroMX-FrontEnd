@@ -7,7 +7,7 @@
 */
 
 
-const validateFields = (name, price, stock) =>{
+const validateFields = (name, description, reason, info, price, stock, imageUrl) =>{
     let mensaje = false;
     if(name.match(/^[A-Za-zÁÉÍÓÚáéíóúÑñ ]{1,30}$/)){
         if(typeof(price) === "number" && (price > 0 && price < 1000) ){
@@ -15,9 +15,20 @@ const validateFields = (name, price, stock) =>{
                 mensaje = true;
             }
         }
-    } 
-    alert(mensaje ? "Los datos son válidos." : "Los datos no son válidos.");
-    return mensaje;
+        itemsController.addItem(name, description, reason, info, price, stock, imageUrl);
+
+        ItemNameInput.value = '';
+        ItemDescription.value = '';
+        ItemStock.value = '';
+        ItemPrice.value = '';
+        ItemReason.value = '';
+        ItemInfo.value = '';
+        ItemImage.value = '';
+
+        alert ('Los datos son válidos');
+    } else {alert( 'Los datos no son válidos');}
+    //alert(mensaje ? "Los datos son válidos." : "Los datos no son válidos.");
+    //return mensaje;
 };
 
 export{validateFields};
