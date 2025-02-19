@@ -25,7 +25,6 @@
         <input type="text" class="form-control" id="producto" placeholder="Ingresa el nombre del producto" required>
         <div class="invalid-feedback" id="productoError">El nombre es obligatorio.</div>
       </div>
-
       <!-- Precio del producto -->
       <div class="mb-3">
         <label for="precio" class="form-label">Precio</label>
@@ -33,8 +32,6 @@
           placeholder="¿Qué precio tiene este producto?" required>
         <div class="invalid-feedback" id="precioError">Inserte el precio</div>
       </div>
-
-
       <!-- ID -->
       <div class="mb-3">
         <label for="Id" class="form-label">ID</label>
@@ -59,36 +56,32 @@
         </select>
         <div class="invalid-feedback" id="categoriaError">Inserte la categoría</div>
       </div>
-
       <!-- Descripción -->
       <div class="mb-3">
         <label for="descripcion_producto" class="form-label">Descripción del Producto</label>
         <textarea id="descripcion_producto" class="form-control" name="descripcion_producto" rows="3"
           required></textarea>
       </div>
-
       <!-- ¿Por qué comprar este producto? -->
       <div class="mb-3">
         <label for="razon_compra" class="form-label">¿Por qué comprar este producto?</label>
         <textarea id="razon_compra" class="form-control" name="razon_compra" rows="3" required></textarea>
       </div>
-
       <!-- Más información sobre su producción -->
       <div class="mb-3">
         <label for="informacion_produccion" class="form-label">Más información sobre su producción</label>
         <textarea id="informacion_produccion" class="form-control" name="informacion_produccion" rows="3"
           required></textarea>
       </div>
-
       <!-- Imagen del Producto -->
       <div class="mb-3">
         <label for="imagen_producto" class="form-label">Imagen del Producto</label>
         <input type="file" class="form-control" id="imagen_producto" name="imagen_producto" accept="image/*" required>
       </div>
-
       <button type="submit" class="btn btn-primary w-100 col-8 mx-auto">Subir Producto</button>
     </form>
   </div>
+
   <footer id="footer"></footer>
   <script src="nuevosProductos.js"></script>
   <script src="/public/sources/modules/Footer/footer.js"></script>
