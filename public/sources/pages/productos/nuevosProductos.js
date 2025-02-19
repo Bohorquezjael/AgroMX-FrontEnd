@@ -1,5 +1,5 @@
 import { validateFields } from "./validations";
-import { addItem } from "./ItemsController";
+import { ItemsController } from "./ItemsController";
 
 // Initialize a new TaskManager with currentId set to 0
 const itemsController = new ItemsController(0);
@@ -24,6 +24,7 @@ ItemForm.addEventListener('submit', (event) => {
 
     // Get the values of the inputs
     const name = ItemNameInput.value;
+    const description = ItemDescription.value;
     const stock = ItemStock.value;
     const price = ItemPrice.value;
     const reason =ItemReason.value;

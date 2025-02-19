@@ -25,4 +25,5 @@ class ItemsController {
     }
 }
 
-export {addItem};
+// export {addItem};
+export {ItemsController};
