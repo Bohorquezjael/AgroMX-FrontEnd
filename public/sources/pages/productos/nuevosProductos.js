@@ -4,6 +4,7 @@ import { ItemsController } from "./ItemsController.js";
 // Initialize a new TaskManager with currentId set to 0
 const itemsController = new ItemsController();
 itemsController.loadItemsFromLocalStorage();
+console.log("Items después de cargar:", itemsController.items);
 
 // Select the New Task Form
 const ItemForm = document.querySelector('#newItemForm');
@@ -57,7 +58,7 @@ ItemForm.addEventListener('submit', (event) => {
     });
 
 console.log("Hola, esta es la prueba");
-
+console.log(localStorage.getItem("items"));
 
 
 
