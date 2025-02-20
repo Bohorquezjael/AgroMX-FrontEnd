@@ -28,14 +28,17 @@ ItemForm.addEventListener('submit', (event) => {
     // Get the values of the inputs
     const name = ItemNameInput.value;
     const description = ItemDescription.value;
-    const stock = ItemStock.value;
-    const price = ItemPrice.value;
+    const stock = parseInt(ItemStock.value);
+    const price = parseFloat(ItemPrice.value);
     const reason =ItemReason.value;
     const info = ItemInfo.value;
     const imageUrl = ItemImage.value;
 
         if(validateFields(name, description, reason, info, price, stock, imageUrl)){
-            console.log("Los datos son válidos");
+            alert("Producto agregado");
+            itemsController.addItem(name, description, reason, info, price, stock, imageUrl);
+        }
+        else { alert("Los datos son inválidos");
         }
         /*
         Validation code here
