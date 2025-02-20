@@ -1,5 +1,6 @@
 //import { validateFields } from "./validations.js";
 import { ItemsController } from "./ItemsController.js";
+import { validateFields } from "./validations.js";
 
 // Initialize a new TaskManager with currentId set to 0
 const itemsController = new ItemsController();
@@ -33,14 +34,16 @@ ItemForm.addEventListener('submit', (event) => {
     const info = ItemInfo.value;
     const imageUrl = ItemImage.value;
 
-    
+        if(validateFields(name, description, reason, info, price, stock, imageUrl)){
+            console.log("Los datos son válidos");
+        }
         /*
         Validation code here
     */
     //validateFields = (name, description, reason, info, price, stock, imageUrl)
     //if(name.match(/^[A-Za-zÁÉÍÓÚáéíóúÑñ ]{1,30}$/)){
-        if (name && description && imageUrl && stock && price && reason && info) {
-            itemsController.addItem(name, description, reason, info, price, stock, imageUrl);
+        // if (name && description && imageUrl && stock && price && reason && info) {
+        //     itemsController.addItem(name, description, reason, info, price, stock, imageUrl);
     
         /*     ItemNameInput.value = '';
             ItemDescription.value = '';
@@ -50,10 +53,10 @@ ItemForm.addEventListener('submit', (event) => {
             ItemInfo.value = '';
             ItemImage.value = ''; */
     
-            alert('Item agregado correctamente.');
-        } else {
-            alert('Por favor, llena todos los campos.');
-        }
+        //     alert('Item agregado correctamente.');
+        // } else {
+        //     alert('Por favor, llena todos los campos.');
+        // }
 
     });
 
