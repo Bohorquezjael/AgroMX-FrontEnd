@@ -23,80 +23,94 @@
     <header id="header"></header>
     <div class="container mt-5">
       <h2 id="titulo" class="text-center titulo">Regístrate</h2>
-      <h2 id="subtitulo" class="text-center">y sé parte de la comunidad</h2>
+      <h2 id="subtitulo" class="text-center">
+        y sé parte de la comunidad
+      </h2>
       <form id="contactForm">
         <!-- Usuario -->
         <div class="mb-3 usuario col-8 mx-auto">
-          <label for="usuario" class="form-label">Usuario</label>
+          <label for="nombre" class="form-label">Usuario</label>
           <input type="text" class="form-control" id="usuario" placeholder="Ingresa tu usuario" required />
-          <div class="invalid-feedback" id="usuarioError">El nombre es obligatorio.</div>
+          <div class="invalid-feedback" id="usuarioError">
+            El nombre es obligatorio.
+          </div>
         </div>
 
         <!-- Nombre -->
         <div class="mb-3 nombre col-8 mx-auto">
           <label for="nombre" class="form-label">Nombre(s)</label>
-          <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required />
+          <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" required>
           <div class="invalid-feedback" id="nombreError">El nombre es obligatorio.</div>
         </div>
-
         <!-- Apellidos -->
         <div class="mb-3 apellidos col-8 mx-auto">
-          <label for="apellidos" class="form-label">Apellidos</label>
-          <input type="text" class="form-control" id="apellidos" placeholder="Ingresa tus apellidos" required />
+          <label for="nombre" class="form-label">Apellidos</label>
+          <input type="text" class="form-control" id="apellidos" placeholder="Ingresa tu nombre" required>
           <div class="invalid-feedback" id="apellidoError">Los apellidos son obligatorios.</div>
         </div>
 
         <!-- Email -->
         <div class="mb-3 email col-8 mx-auto">
-          <label for="email" class="form-label">Email</label>
+          <label for="correo" class="form-label">Email</label>
           <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" required />
-          <div class="invalid-feedback" id="correoError">Por favor ingresa un correo electrónico válido.</div>
-        </div>
-
-        <!-- Contraseña -->
-        <div class="mb-3 contraseña col-8 mx-auto">
-          <label for="password" class="form-label">Contraseña</label>
-          <div class="password-container position-relative">
-            <input type="password" class="form-control" id="password" placeholder="Ingresa tu contraseña" required />
-            <span id="toggle-password" class="eye-icon position-absolute top-50 end-0 translate-middle-y pe-3">👁️</span>
+          <div class="invalid-feedback" id="correoError">
+            Por favor ingresa un correo electrónico válido.
           </div>
-          <div class="invalid-feedback" id="contraseñaError">Por favor ingresa una contraseña.</div>
         </div>
-
-        <!-- Confirmar Contraseña -->
-        <div class="mb-3 contraseña col-8 mx-auto">
-          <label for="confirmarContraseña" class="form-label">Confirma tu contraseña</label>
-          <div class="password-container position-relative">
-            <input type="password" class="form-control" id="contraseña" placeholder="Confirma tu contraseña" required />
-            <span id="confirm-password" class="eye-icon position-absolute top-50 end-0 translate-middle-y pe-3">👁️</span>
+        <!-- contraseña -->
+        <div class="mb-3 contraseña col-8 mx-auto"> <label for="password" class="form-label">Contraseña</label>
+          <div class="password-container position-relative"> <input type="password" required minlength="6"
+              class="form-control" id="password" placeholder="Ingresa tu contraseña"> <span id="toggle-password"
+              class="eye-icon position-absolute top-50 end-0 translate-middle-y pe-3">👁️</span>
           </div>
-          <div class="invalid-feedback" id="confirmaContraseñaError">Las contraseñas no coinciden.</div>
+          <div class="invalid-feedback" id="contraseñaError">Por favor ingresa una contraseña. </div>
         </div>
 
-        <!-- Términos y condiciones -->
+        <!-- Confirma tu contraseña -->
+        <div class="mb-3 contraseña col-8 mx-auto"> <label for="password" class="form-label">Confirma tu
+            contraseña</label>
+          <div class="password-container position-relative"> <input type="password" required minlength="6"
+              class="form-control" id="contraseña" placeholder="Confirma tu contraseña"> <span id="confirm-password"
+              class="eye-icon position-absolute top-50 end-0 translate-middle-y pe-3">👁️</span>
+          </div>
+          <div class="invalid-feedback" id="confirmaContraseñaError">Tu contraseña no coincide.</div>
+        </div>
+
+        <!-- Confirmación de Acuerdos y Condiciones -->
         <div class="form-check mb-3">
           <input class="form-check-input" type="checkbox" id="termsCheckbox" required />
-          <label class="form-check-label" for="termsCheckbox">
-            Acepto los términos y condiciones. <a href="#" target="_blank"></a>
+          <label class="form-check-label terminos-condiciones" for="termsCheckbox">
+            Acepto los
+            <a class="terminos-condiciones" href="#" target="_blank">términos y condiciones.</a>
           </label>
-          <div class="invalid-feedback">Debes aceptar los términos y condiciones.</div>
+          <div class="invalid-feedback terminos-condiciones">
+            Debes aceptar los términos y condiciones.
+          </div>
         </div>
 
-        <!-- Botón de envío -->
         <div class="mb-3 col-8 mx-auto">
-          <button type="submit" class="btn custom-btn w-100" id="submitBtn">Regístrame</button>
+          <button type="submit" class="btn custom-btn w-100">
+            Regístrame
+          </button>
+        </div>
+        <div id="successMessage" style="display:none;" class="alert alert-success mt-3"> ¡Tu registro ha sido exitoso!
         </div>
 
-        <!-- Mensaje de éxito -->
-        <div id="successMessage" style="display:none;" class="alert alert-success mt-3">
-          ¡Tu registro ha sido exitoso!
+        <!-- Inicio de sesión -->
+
+        <div>
+          <a class="inicio-sesion" href="pagina inexistente">¿Ya tienes cuenta? Inicia sesión.</a>
         </div>
       </form>
     </div>
     <footer id="footer"></footer>
-  </main>
 
-  <!-- Scripts -->
-  <script src="contacto.js"></script>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="contacto.js"></script>
+    <script src="/public/sources/modules/Footer/footer.js"></script>
+    <script src="/public/sources/modules/Header/header.js"></script>
+  </main>
 </body>
+
 </html>

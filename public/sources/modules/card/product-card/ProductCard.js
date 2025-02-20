@@ -3,17 +3,17 @@ import { CardImage } from "/public/sources/modules/card/card-image/CardImage.js"
 
 class ProductCard {
 
-    constructor(id, nombre, precio, imagen) {
-        this.id = id;
-        this.nombre = nombre;
-        this.precio = precio;
-        //!FIXME: tratar el atributo descrpcion : no mostrar en el HTML
-        this.imagen = new CardImage(imagen, nombre);
-    }
-    //? Método para generar el HTML de la tarjeta
-    
-    generateHTML() {
-        return `
+  constructor(id, nombre, precio, imagen) {
+    this.id = id;
+    this.nombre = nombre;
+    this.precio = precio;
+    //!FIXME: tratar el atributo descrpcion : no mostrar en el HTML
+    this.imagen = new CardImage(imagen, nombre);
+  }
+  //? Método para generar el HTML de la tarjeta
+
+  generateHTML() {
+    return `
 <style>
   #texto-boton {
     font-family: "Mako", serif;
@@ -28,7 +28,7 @@ class ProductCard {
   } 
 </style>
 
-            <div class="d-flex col-4 col-sm-3 col-md-3 col-lg-2 p-1">
+            <div class="col-10 col-md-3 p-1">
                 <div class="card" >                  
                         <img src="${this.imagen.getImageUrl()}" class="card-img-top product-img img-thumbnail" alt="${this.imagen.description}">
                     <div class="card-body">

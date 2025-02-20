@@ -1,0 +1,38 @@
+h1,
+h2,
+h3 {
+  font-family: 'Gabriela';
+  color: #768300;
+  text-align: center;
+}
+
+label {
+  font-family: "Mako", serif;
+  font-size: larger;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.mb-3 {
+  margin: 35px;
+}
+
+button {
+  margin: 35px;
+  /* height: 50px; */
+}
+
+.btn-primary {
+  background-color: #E17018;
+  border-color: #000000;
+  border-width: 0.1px;
+  color: white;
+  border-radius: 10px;
+  width: 200px;
+  align-self: center;
+}
+
+.btn-primary:hover {
+  background-color: #005a48;
+  border-color: #004137;
+}
