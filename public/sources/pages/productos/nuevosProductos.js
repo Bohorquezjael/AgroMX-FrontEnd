@@ -1,8 +1,11 @@
-import { validateFields } from "./validations";
-import { addItem } from "./ItemsController";
+//import { validateFields } from "./validations.js";
+import { ItemsController } from "./ItemsController.js";
+import { validateFields } from "./validations.js";
 
 // Initialize a new TaskManager with currentId set to 0
-const itemsController = new ItemsController(0);
+const itemsController = new ItemsController();
+itemsController.loadItemsFromLocalStorage();
+console.log("Items después de cargar:", itemsController.items);
 
 // Select the New Task Form
 const ItemForm = document.querySelector('#newItemForm');
@@ -24,44 +27,70 @@ ItemForm.addEventListener('submit', (event) => {
 
     // Get the values of the inputs
     const name = ItemNameInput.value;
-    const stock = ItemStock.value;
-    const price = ItemPrice.value;
+    const description = ItemDescription.value;
+    const stock = parseInt(ItemStock.value);
+    const price = parseFloat(ItemPrice.value);
+    const reason =ItemReason.value;
+    const info = ItemInfo.value;
+    const imageUrl = ItemImage.value;
 
-    
+        if(validateFields(name, description, reason, info, price, stock, imageUrl)){
+            alert("Producto agregado");
+            itemsController.addItem(name, description, reason, info, price, stock, imageUrl);
+        }
+        else { alert("Los datos son inválidos");
+        }
         /*
         Validation code here
     */
-   validateFields(name,price,stock);
+    //validateFields = (name, description, reason, info, price, stock, imageUrl)
+    //if(name.match(/^[A-Za-zÁÉÍÓÚáéíóúÑñ ]{1,30}$/)){
+        // if (name && description && imageUrl && stock && price && reason && info) {
+        //     itemsController.addItem(name, description, reason, info, price, stock, imageUrl);
+    
+        /*     ItemNameInput.value = '';
+            ItemDescription.value = '';
+            ItemStock.value = '';
+            ItemPrice.value = '';
+            ItemReason.value = '';
+            ItemInfo.value = '';
+            ItemImage.value = ''; */
+    
+        //     alert('Item agregado correctamente.');
+        // } else {
+        //     alert('Por favor, llena todos los campos.');
+        // }
 
-    // Add the task to the task manager
-    itemsController.addItem(name, stock, price);
+    });
 
-    // Clear the form
-    ItemNameInput.value = '';
-    ItemDescription.value = '';
-});
+console.log("Hola, esta es la prueba");
+console.log(localStorage.getItem("items"));
 
 
 
-
-function addItemCard(item){
-    const itemHTML = '<div class="card" style="width: 18rem;">\n' +
-        '    <img src="'+item.img +'" class="card-img-top" alt="image">\n' +
-        '    <div class="card-body">\n' +
-        '        <h5 class="card-title">'+item.name+'</h5>\n' +
-        '        <p class="card-text">'+item.description+'</p>\n' +
-        '        <a href="#" class="btn btn-primary">Add</a>\n' +
-        '    </div>\n' +
-        '</div>\n' +
-        '<br/>';
+/* function addItemCard(item){
+    const itemHTML = `
+    <div class="card" style="width: 18rem;"> 
+        <img src="${item.imageUrl}" class="card-img-top" alt="image">
+        <div class="card-body">
+            <h5 class="card-title">${item.name}</h5>
+            <p class="card-text">${item.description}</p>
+            <a href="#" class="btn btn-primary">Add</a>
+        </div>
+    </div>
+    `;
     const itemsContainer = document.getElementById("list-items");
     itemsContainer.innerHTML += itemHTML;
 }
 
-addItemCard({'name':'juice',
+itemsController.items.forEach(addItemCard); */
+
+//addItemCard(itemsController.addItem(name, description, reason, info, price, stock, imageUrl));
+
+/* addItemCard({'name':'juice',
     'img':'https://www.gs1india.org/media/Juice_pack.jpg',
     'description':'Orange and Apple juice fresh and delicious'});
 
 addItemCard({'name':'Tayto',
     'img':'https://www.irishtimes.com/polopoly_fs/1.4078148!/image/image.jpg',
-    'description':'Cheese & Onion Chips'})
+    'description':'Cheese & Onion Chips'}) */
