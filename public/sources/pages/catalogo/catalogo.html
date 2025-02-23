@@ -174,9 +174,24 @@
 					></div>
 				</div>
 			</div>
+			<div class="container-fluid text-center">
+				<button class="btn btn-primary" id="deleteAllElements">Borrar los elementos agregados</button>
+			</div>
 		</main>
 
 		<footer id="footer"></footer>
+
+
+		<script>
+			const deleteAllElements = document.getElementById('deleteAllElements');
+			deleteAllElements.addEventListener('click', () => {
+				const cardParent = document.getElementById('list-items');
+				const cards = cardParent.querySelectorAll('.card');
+				cards.forEach(card => {
+					card.parentNode.removeChild(card);
+				});
+			});	
+		</script>
 
 		<script>
 			addEventListener("click", deleteElement);
