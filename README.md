@@ -1,1 +1,122 @@
-# AgroMX-FrontEnd
+# AgroMX - Ecommerce Agroecológico
+
+AgroMX es una plataforma de comercio electrónico enfocada en la venta de productos agroecológicos. Su principal objetivo es conectar a productores locales de toda la República Mexicana con consumidores interesados en productos frescos, saludables y sostenibles. A través de esta plataforma, se impulsa el comercio justo, promoviendo la economía local y el consumo responsable.
+
+El ecommerce de AgroMX ofrece un amplio catálogo de productos provenientes de distintos productores agroecológicos del país, asegurando que los clientes puedan acceder a alimentos de alta calidad, libres de químicos dañinos y cultivados de manera sustentable. Además, la plataforma incluye herramientas interactivas como filtros avanzados de búsqueda, descripciones detalladas de los productos, información sobre el origen de los alimentos y una comunidad donde los usuarios pueden compartir recetas y consejos agroecológicos.
+
+Esta plataforma no solo facilita la compra y venta de productos agroecológicos, sino que también busca educar y concientizar a los consumidores sobre la importancia de adoptar un estilo de vida más saludable y sostenible. En AgroMX, creemos en un modelo de comercio electrónico que beneficia tanto a los pequeños productores como a los consumidores finales, garantizando transparencia, trazabilidad y confianza en cada transacción.
+
+## Tecnologías utilizadas
+
+El frontend de AgroMX ha sido desarrollado con las siguientes tecnologías:
+
+- **HTML5**: Para la estructura del contenido.
+- **CSS3**: Para el diseño y la presentación visual.
+- **JavaScript (ES6+)**: Para la interactividad y la manipulación del DOM.
+- **Bootstrap**: Para un diseño responsivo y una interfaz atractiva.
+- **React.js**: Para el desarrollo de una aplicación web moderna, modular y eficiente.
+
+## Instalación y configuración
+
+### Requisitos previos
+
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
+- [Node.js](https://nodejs.org/) (versión 14 o superior)
+- [npm](https://www.npmjs.com/) o [yarn](https://yarnpkg.com/)
+- Git (para clonar el repositorio)
+
+### Pasos de instalación
+
+1. Clonar el repositorio:
+   ```sh
+   git clone https://github.com/tu_usuario/agromx-frontend.git
+   ```
+2. Ingresar al directorio del proyecto:
+   ```sh
+   cd agromx-frontend
+   ```
+3. Instalar dependencias:
+   ```sh
+   npm install
+   ```
+4. Iniciar el entorno de desarrollo:
+   ```sh
+   npm start
+   ```
+
+Esto ejecutará la aplicación en `http://localhost:3000/`.
+
+## Estructura del proyecto
+
+```
+/agromx-frontend
+│── /public        # Archivos estáticos y assets
+│── /src
+│   │── /components # Componentes reutilizables
+│   │── /pages      # Páginas principales del sitio
+│   │── /styles     # Hojas de estilo CSS
+│   │── /utils      # Funciones auxiliares
+│── package.json   # Dependencias y configuración de npm
+│── README.md      # Documentación del proyecto
+```
+
+## Funcionalidades principales
+
+- **Exploración de productos** con filtros por categoría y precio.
+- **Detalle de productos** con descripciones, imágenes y videos informativos.
+- **Registro e inicio de sesión** con validación de datos.
+- **Carrito de compras** con edición de cantidades y opciones de pago.
+- **Sección comunitaria** con recetas, consejos agroecológicos y noticias.
+- **Interfaz responsiva y accesible** optimizada para dispositivos móviles.
+
+## Capturas de pantalla
+
+Puedes agregar capturas de pantalla subiendo las imágenes a GitHub y enlazándolas aquí con el siguiente formato:
+
+```md
+![Inicio](https://github.com/tu_usuario/agromx-frontend/blob/main/screenshots/inicio.png)
+![Catálogo](https://github.com/tu_usuario/agromx-frontend/blob/main/screenshots/catalogo.png)
+![Detalle del Producto](https://github.com/tu_usuario/agromx-frontend/blob/main/screenshots/detalle_producto.png)
+```
+
+## Deployment
+
+Para desplegar la aplicación en un entorno de producción, se recomienda utilizar plataformas como:
+
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+- [GitHub Pages](https://pages.github.com/) (solo para proyectos estáticos)
+
+Pasos para despliegue en Vercel:
+
+1. Instalar Vercel CLI:
+   ```sh
+   npm install -g vercel
+   ```
+2. Autenticarse en Vercel:
+   ```sh
+   vercel login
+   ```
+3. Desplegar el proyecto:
+   ```sh
+   vercel
+   ```
+
+## Contribución
+
+Si deseas contribuir al proyecto:
+
+1. Realiza un fork del repositorio.
+2. Crea una rama para tu nueva funcionalidad (`git checkout -b nueva-funcionalidad`).
+3. Realiza los cambios y confirma los commits (`git commit -m "Descripción del cambio"`).
+4. Sube los cambios a tu fork (`git push origin nueva-funcionalidad`).
+5. Abre un Pull Request en el repositorio principal.
+
+## Contacto
+
+Si tienes dudas o sugerencias, puedes contactarnos a [tuemail@example.com](mailto:tuemail@example.com).
+
+---
+
+Este README proporciona una documentación detallada para el frontend de AgroMX. ¡Avísame si deseas realizar ajustes o agregar más información!
+
