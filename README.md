@@ -51,33 +51,48 @@ Esto ejecutará la aplicación en `http://localhost:3000/`.
 ```
 /agromx-frontend
 │── /public        # Archivos estáticos y assets
+│   │── /data      # Archivos JSON con datos de productos
+│   │── /images    # Imágenes del sitio
+│   │── /json      # Otros datos en formato JSON
 │── /src
-│   │── /components # Componentes reutilizables
-│   │── /pages      # Páginas principales del sitio
-│   │── /styles     # Hojas de estilo CSS
-│   │── /utils      # Funciones auxiliares
-│── package.json   # Dependencias y configuración de npm
-│── README.md      # Documentación del proyecto
+│   │── /components  # Componentes reutilizables
+│   │── /context     # Contexto de la aplicación
+│   │── /pages       # Páginas principales del sitio
+│   │   │── /Carrito         # Página del carrito de compras
+│   │   │── /Catalogo        # Catálogo de productos
+│   │   │── /Comunidad       # Sección comunitaria
+│   │   │── /DetallesProducto # Detalles de un producto
+│   │   │── /DeveloperTeam   # Información del equipo
+│   │   │── /login           # Página de inicio de sesión
+│   │   │── /Productos       # Listado de productos
+│   │   │── /Registro        # Página de registro de usuarios
+│   │   │── /SobreNosotros   # Información sobre la empresa
+│   │── carrito.jsx  # Componente del carrito de compras
+│   │── Inicio.jsx   # Página de inicio
+│   │── App.css      # Estilos generales de la aplicación
+│   │── App.jsx      # Componente principal de React
+│   │── index.css    # Estilos base
+│   │── main.jsx     # Punto de entrada de la aplicación
+│── .gitignore       # Archivos y carpetas ignorados por Git
+│── .prettierrc.json # Configuración de Prettier
+│── eslint.config.js # Configuración de ESLint
+│── index.html       # Archivo base HTML
+│── LICENSE          # Licencia del proyecto
+│── package-lock.json# Archivo de bloqueo de dependencias
+│── package.json     # Dependencias y configuración de npm
+│── README.md        # Documentación del proyecto
+│── vercel.json      # Configuración para despliegue en Vercel
+│── vite.config.js   # Configuración de Vite para React
 ```
 
 ## Funcionalidades principales
 
-- **Exploración de productos** con filtros por categoría y precio.
-- **Detalle de productos** con descripciones, imágenes y videos informativos.
+- **Exploración de productos** 
+- **Detalle de productos** con descripciones.
 - **Registro e inicio de sesión** con validación de datos.
 - **Carrito de compras** con edición de cantidades y opciones de pago.
 - **Sección comunitaria** con recetas, consejos agroecológicos y noticias.
 - **Interfaz responsiva y accesible** optimizada para dispositivos móviles.
-
-## Capturas de pantalla
-
-Puedes agregar capturas de pantalla subiendo las imágenes a GitHub y enlazándolas aquí con el siguiente formato:
-
-```md
-![Inicio](https://github.com/tu_usuario/agromx-frontend/blob/main/screenshots/inicio.png)
-![Catálogo](https://github.com/tu_usuario/agromx-frontend/blob/main/screenshots/catalogo.png)
-![Detalle del Producto](https://github.com/tu_usuario/agromx-frontend/blob/main/screenshots/detalle_producto.png)
-```
 
 ## Deployment
 
@@ -115,6 +130,10 @@ Si deseas contribuir al proyecto:
 ## Contacto
 
 Si tienes dudas o sugerencias, puedes contactarnos a [tuemail@example.com](mailto:tuemail@example.com).
+
+---
+
+Este README proporciona una documentación detallada para el frontend de AgroMX. ¡Avísame si deseas realizar ajustes o agregar más información!
 
 ---
 
