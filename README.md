@@ -140,7 +140,4 @@ Si tienes dudas o sugerencias, puedes contactarnos a:
 - **ecjeux24@gmail.com**
 - **hilarihernandezislas@gmail.com**
 
----
-
-Este README proporciona una documentación detallada para el frontend de AgroMX. ¡Avísame si deseas realizar ajustes o agregar más información!
 
