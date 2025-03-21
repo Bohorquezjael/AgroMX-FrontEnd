@@ -144,7 +144,3 @@ Si tienes dudas o sugerencias, puedes contactarnos a:
 
 Este README proporciona una documentación detallada para el frontend de AgroMX. ¡Avísame si deseas realizar ajustes o agregar más información!
 
----
-
-Este README proporciona una documentación detallada para el frontend de AgroMX. ¡Avísame si deseas realizar ajustes o agregar más información!
-
