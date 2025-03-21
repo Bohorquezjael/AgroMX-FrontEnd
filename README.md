@@ -129,7 +129,16 @@ Si deseas contribuir al proyecto:
 
 ## Contacto
 
-Si tienes dudas o sugerencias, puedes contactarnos a [tuemail@example.com](mailto:tuemail@example.com).
+Si tienes dudas o sugerencias, puedes contactarnos a:
+
+- **jaelbkz@icloud.com**
+- **katherinehinojosamolina@gmail.com**
+- **diazdae@gmail.com**
+- **liset10nieve@live.com.mx**
+- **elizabethania.te@gmail.com**
+- **davidavellaneda863@gmail.com**
+- **ecjeux24@gmail.com**
+- **hilarihernandezislas@gmail.com**
 
 ---
 
